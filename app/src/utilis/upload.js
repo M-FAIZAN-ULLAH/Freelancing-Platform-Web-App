@@ -6,7 +6,7 @@ const upload = async (file) => {
     data.append("upload_preset", "Fiverr")
     try {
       const res = await axios.post(
-        "https://api.cloudinary.com/v1_1/dczyj0axu/image/upload",
+        "your-api-keyo-of-cloud",
         data
       )
 
